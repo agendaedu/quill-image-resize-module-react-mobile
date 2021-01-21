@@ -83,8 +83,8 @@ export class Resize extends BaseModule {
 		// stop listening for movement and mouseup
 		document.removeEventListener('mousemove', this.handleDrag);
 		document.removeEventListener('mouseup', this.handleMouseup);
-		document.addEventListener('touchend', this.handleMouseup);
-		document.addEventListener('touchmove', this.handleDrag);
+		document.removeEventListener('touchend', this.handleMouseup);
+        document.removeEventListener('touchmove', this.handleDrag);
 	};
 
 	handleDrag = (evt) => {
