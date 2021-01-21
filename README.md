@@ -188,3 +188,8 @@ var quill = new Quill(editor, {
     }
 });
 ```
+
+### Credit
+
+This lib is basically [quill-image-resize-module](https://github.com/kensnyder/quill-image-resize-module),
+ReactJS implemented [quill-image-resize-module-react](https://github.com/concrete-cc/quill-image-resize-module-react),
