@@ -30,9 +30,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agendakids/quill-image-resize-module/issues"
+    "url": "https://github.com/agendakids/quill-image-resize-module-react-mobile/issues"
   },
-  "homepage": "https://github.com/agendakids/quill-image-resize-module#readme",
+  "homepage": "https://github.com/agendakids/quill-image-resize-module-react-mobile#readme",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
